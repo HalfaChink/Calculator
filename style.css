@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body {
+    font-family: "Secular One";
+    background: #2D2F36;
+  }
+  
+  img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #background {
+      width:300px;
+      height:400px;
+      background:#474A59;
+      margin:10px auto;
+      border-radius: 10px;
+      box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  }
+  
+  button {
+      border:0;
+      color:#fff;
+  }
+  
+  #result {
+      display:block;
+      font-family: "Secular One";
+      width:230px;
+      height:40px;
+      margin:10px auto;
+      text-align: right;
+      border:0;
+      background:#5f6473;
+      color: #151922;
+      padding-top:20px;
+      font-size:20px;
+      margin-left: 25px;
+      outline: none;
+      overflow: hidden;
+      letter-spacing: 4px;
+      position: relative;
+      top:10px;
+      border-radius: 10px;
+      box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  }
+  
+  #result:hover {
+      
+      cursor: text;
+      
+  }
+  
+  #first-rows {
+      margin-bottom: 20px;
+      position: relative;
+      top:10px;
+  }
+  
+  .rows {
+      width:300px;
+      margin-top:10px;
+  }
+  
+  #delete {
+      width:110px;
+      height:50px;
+      margin-left:25px;
+      border-radius:4px;
+  }
+  
+  .fall-back {
+      margin-left:3px !important;
+  }
+  
+  .align {
+      margin-left: 6px !important;
+  }
+  
+  .btn-style {
+      width:50px;
+      height:50px;
+      margin-left:5px;
+      border-radius:4px;
+  }
+  
+  .eqn {
+      width:50px;
+      height:50px;
+      margin-left:5px;
+      border-radius:4px;
+  }
+  
+  .first-child {
+   margin-left:25px;
+  }
+  
+  
+   .num-bg {
+      background:rgba(0, 0, 0, 0.09);
+      color:#fff;
+      font-size:26px;
+      cursor:pointer;
+      outline:none;
+      box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  
+   .num-bg:active {
+      background:rgba(0, 0, 0, 0.09);
+      color:#fff;
+      font-size:26px;
+      cursor:pointer;
+      outline:none;
+      box-shadow: inset 5px 5px 5px #555;
+  }
+  
+  .opera-bg {
+      background:#333;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  
+  .opera-bg:active {
+      background:#333;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      box-shadow: inset 4px 4px 4px #555;
+  }
+  
+  .del-bg {
+      background: red;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  
+  .del-bg:active {
+      background:#b30000;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      box-shadow: inset 4px 4px 4px #b30000;
+  }
+  
+  #eqn-bg {
+      background:#17a928;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      border-bottom:3px solid #1f7a29;
+  }
+  
+  #eqn-bg:active {
+      background:#17a928;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      box-shadow: inset 4px 4px 4px #1f7a29;
+  }
+  
